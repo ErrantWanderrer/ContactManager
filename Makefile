@@ -16,4 +16,4 @@ $(TARGET): $(OBJECTS)
 include $(wildcard   *.d)
 
 clean:
-rm *.o *.d $(TARGET)
+        rm *.o *.d $(TARGET)
